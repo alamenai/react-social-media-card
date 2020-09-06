@@ -1,7 +1,8 @@
 import React from "react"
 
 const Context = React.createContext({
-    visibility: false
+    visibility: false,
+    setVisibility: () => { }
 })
 
 export { Context }
