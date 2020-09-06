@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 const Interaction = ({ icon, alt, count, interact, color }) => (
-    <span className="flex relative">
+    <span className="flex w-8">
         <img src={icon}
             alt={alt}
             className="cursor-pointer"
